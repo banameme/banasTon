@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Hamster from './icons/Hamster';
-import { binanceLogo, dailyCipher, dailyCombo, dailyReward, dollarCoin, hamsterCoin, mainCharacter } from './images';
+import { BanaSwap, dailyCipher, dailyCombo, dailyReward, dollarCoin, BanaCoin, mainCharacter } from './images';
 import Info from './icons/Info';
 import Settings from './icons/Settings';
 import Mine from './icons/Mine';
@@ -139,7 +139,7 @@ const App: React.FC = () => {
               <Hamster size={24} className="text-[#d4d4d4]" />
             </div>
             <div>
-              <p className="text-sm">Nikandr (CEO)</p>
+              <p className="text-sm">KingKING (CEO)</p>
             </div>
           </div>
           <div className="flex items-center justify-between space-x-4 mt-1">
@@ -157,7 +157,7 @@ const App: React.FC = () => {
               </div>
             </div>
             <div className="flex items-center w-2/3 border-2 border-[#43433b] rounded-full px-4 py-[2px] bg-[#43433b]/[0.6] max-w-64">
-              <img src={binanceLogo} alt="Exchange" className="w-8 h-8" />
+              <img src={BanaSwaplogo} alt="Exchange" className="w-8 h-8" />
               <div className="h-[32px] w-[2px] bg-[#43433b] mx-2"></div>
               <div className="flex-1 text-center">
                 <p className="text-xs text-[#85827d] font-medium">Profit per hour</p>
@@ -205,7 +205,7 @@ const App: React.FC = () => {
 
             <div className="px-4 mt-4 flex justify-center">
               <div
-                className="w-80 h-80 p-4 rounded-full circle-outer"
+                className="w-100 h-100 p-4 rounded-full circle-outer"
                 onClick={handleCardClick}
               >
                 <div className="w-full h-full rounded-full circle-inner">
@@ -220,7 +220,7 @@ const App: React.FC = () => {
       {/* Bottom fixed div */}
       <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-[calc(100%-2rem)] max-w-xl bg-[#272a2f] flex justify-around items-center z-50 rounded-3xl text-xs">
         <div className="text-center text-[#85827d] w-1/5 bg-[#1c1f24] m-1 p-2 rounded-2xl">
-          <img src={binanceLogo} alt="Exchange" className="w-8 h-8 mx-auto" />
+          <img src={BanaSwapLogo} alt="Exchange" className="w-8 h-8 mx-auto" />
           <p className="mt-1">Exchange</p>
         </div>
         <div className="text-center text-[#85827d] w-1/5">
@@ -236,7 +236,7 @@ const App: React.FC = () => {
           <p className="mt-1">Earn</p>
         </div>
         <div className="text-center text-[#85827d] w-1/5">
-          <img src={hamsterCoin} alt="Airdrop" className="w-8 h-8 mx-auto" />
+          <img src={banaCoin} alt="coindrop" className="w-8 h-8 mx-auto" />
           <p className="mt-1">Airdrop</p>
         </div>
       </div>

@@ -38,8 +38,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90vw;
-  height: 90vw;
+  width: 105vw;
+  height: 105vw;
   max-width: 360px;
   max-height: 360px;
 }
